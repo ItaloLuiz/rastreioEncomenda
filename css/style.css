@@ -1,0 +1,69 @@
+body {
+    background-color: #efefef;
+}
+
+#resultados {
+    width: 78%;
+    background-color: #fff;
+    padding: 5px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.separa {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+    padding-right: 15px;
+    border: none;
+}
+
+.separa2 {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.tabela {
+    background-color: #fff;
+    
+}
+
+.tr {
+    background-color: #fff;
+    border-bottom: dotted 1px #ccc;
+    padding: 5px;
+    color:#555;
+}
+
+.tr:first-child{
+    border-top: dotted 1px #ccc;
+}
+.tr:last-child{
+    border-bottom: none;
+}
+
+.esquerda {
+    width:30%;
+    position: relative;
+    float: left;
+}
+
+.header{
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:5px;
+    color:#444;
+    overflow: hidden;    
+}
+
+.header h4{
+    font-size: 14px;
+}
+
+.footer{
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:5px;
+    color:#444;
+    overflow: hidden;    
+}
